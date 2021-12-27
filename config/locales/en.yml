@@ -1,0 +1,86 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# En:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+En:
+  hello: "Hello world"
+
+  head:
+    auction: "Auction"
+    logout: "Logout"
+    profile: "Profile"
+    login: "Login"
+    register: "Register"
+
+  product:
+    sale: "Put up for auction"
+    add: "Add new"
+    body:
+      name: "Name product"
+      body: "Body"
+      price: "Price"
+      save: "Save"
+
+  head_profile:
+    profile: "Profile"
+    participate: "Transactions with my participation"
+    my_goods: "Purchased goods"
+
+  description:
+    time_left: "Time left"
+    current_price: "Current price"
+    raise_by: "Place a bet"
+    current_buyer: "Current buyer"
+
+    form:
+      start_price: "Start Price"
+      raise_by: "Raise by"
+      descr: "Description"
+      time_end: "End of time"
+      sale: "SALE"
+
+  review:
+    date: "Date"
+
+  index:
+    all_offers: "All offers"
+
+  profile:
+    current_balance: "Current balance"
+    add: "Add"
+    username: "Username"
+    reviews: "Reviews"
+
+  registration:
+    name: "Registration"
+    username: "Nickname"
+    password: "Password"
+    password_confirm: "Repeat Password"
+    sign_up: "SignUp"

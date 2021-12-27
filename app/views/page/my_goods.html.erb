@@ -1,0 +1,14 @@
+<%= render 'head' %>
+<main role="main" class="d-flex justify-content-center container flex-column">
+  <%= render 'head_profile' %>
+
+  <div class="">
+    <% @products.each do |product| %>
+      <%= render 'body_product', product: product %>
+    <% end %>
+  </div>
+  
+  <div class="col text-center" style="margin-top: 10px;">
+  <span><%= link_to t('product.add'), new_product_path, class: 'btn btn-success', type: 'button' %></span>
+  </div>
+</main>

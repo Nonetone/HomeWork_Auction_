@@ -1,0 +1,86 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# En:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+ru:
+  hello: "Привет мир"
+
+  head:
+    auction: "Аукцион"
+    logout: "Выйти"
+    profile: "Профиль"
+    login: "Войти"
+    register: "Регистрация"
+
+  product:
+    sale: "Выложить на аукцион"
+    add: "Добавить новый"
+    body:
+      name: "Название"
+      body: "Содержимое"
+      price: "Цена"
+      save: "Сохранить"
+
+  head_profile:
+    profile: "Профиль"
+    participate: "Сделки с моим участием"
+    my_goods: "Мои товары"
+
+  description:
+    time_left: "Осталось времени"
+    current_price: "Текущая цена"
+    raise_by: "Сделать ставку"
+    current_buyer: "Текущий покупатель"
+
+    form:
+      start_price: "Начальная Цена"
+      raise_by: "Повышать на"
+      descr: "Описание"
+      time_end: "Конец"
+      sale: "Выставить"
+
+  review:
+    date: "Дата"
+
+  index:
+    all_offers: "Все предложения"
+
+  profile:
+    current_balance: "Текущий баланс"
+    add: "Пополнить"
+    username: "Имя"
+    reviews: "Отзывы"
+
+  registration:
+    name: "Регистрация"
+    username: "Имя"
+    password: "Пароль"
+    password_confirm: "Повторите пароль"
+    sign_up: "Зарегистрироваться"   
